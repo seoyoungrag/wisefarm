@@ -21,6 +21,9 @@ Theme Version: 	1.5.2
 
 	$('#salesSelectorWrapper').addClass('ready');
 
+	$('#martSelector').themePluginMultiSelect().on('change', function() {
+	});
+
 	/*
 	Flot: Sales 1
 	*/
@@ -88,7 +91,7 @@ Theme Version: 	1.5.2
 			backgroundColor: 'transparent'
 		},
 		yaxis: {
-			min: 0,
+			min: 1200,
 			color: 'rgba(0,0,0,0.1)'
 		},
 		xaxis: {
@@ -96,7 +99,7 @@ Theme Version: 	1.5.2
 			color: 'rgba(0,0,0,0)'
 		},
 		legend: {
-			show: false
+			show: true
 		},
 		tooltip: true,
 		tooltipOpts: {
